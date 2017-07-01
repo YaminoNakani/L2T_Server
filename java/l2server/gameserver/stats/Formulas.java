@@ -4746,37 +4746,37 @@ public final class Formulas
 					switch (awakening)
 					{
 						case 139: // Sigel Knight
-							multiplier *= 1.2;
+							multiplier *= 1;
 							if (weapon != null && (weapon.getItemType() == L2WeaponType.BOW ||
 									weapon.getItemType() == L2WeaponType.CROSSBOW))
 							{
-								multiplier *= 0.3;
+								multiplier *= 1;
 							}
 							break;
 						case 140: // Tyrr Warrior
-							multiplier *= 0.95;
+							multiplier *= 1;
 							break;
 						case 141: // Othell Rogue
 							if (weapon != null && (weapon.getItemType() == L2WeaponType.DAGGER ||
 									weapon.getItemType() == L2WeaponType.DUALDAGGER))
 							{
-								multiplier *= 1.2;
+								multiplier *= 1;
 							}
 							break;
 						case 142: // Yul Archer
-							multiplier *= 1.05;
+							multiplier *= 1;
 							break;
 						case 143: // Feoh Wizard
-							multiplier *= 1.3;
+							multiplier *= 1;
 							break;
 						case 144: // Iss Enchanter
-							multiplier *= 1.5;
+							multiplier *= 1;
 							break;
 						case 145: // Wynn Summoner
-							multiplier *= 1.7;
+							multiplier *= 1;
 							break;
 						case 146: // Aeore Healer
-							multiplier *= 1.5;
+							multiplier *= 1;
 							break;
 					}
 				}
@@ -4784,25 +4784,25 @@ public final class Formulas
 				switch (attackerClass.getId())
 				{
 					case 152: // Tyrr Duelist
-						multiplier *= 0.9;
+						multiplier *= 1;
 						break;
 					case 166: // Feoh Archmage
-						multiplier *= 1.5;
+						multiplier *= 1;
 						break;
 					case 167: // Feoh Soultaker
-						multiplier *= 0.9;
+						multiplier *= 1;
 						break;
 					case 168: // Feoh Mystic Muse
-						multiplier *= 1.3;
+						multiplier *= 1;
 						break;
 					case 169: // Feoh Storm Screamer
-						multiplier *= 0.9;
+						multiplier *= 1;
 						break;
 					case 188: // Eviscerator
-						multiplier *= 1.2;
+						multiplier *= 1;
 						break;
 					case 189: // Sayha's Seer
-						multiplier *= 1.2;
+						multiplier *= 1;
 						break;
 				}
 
@@ -4813,28 +4813,28 @@ public final class Formulas
 					switch (awakening)
 					{
 						case 139: // Sigel Knight
-							multiplier *= 0.8;
+							multiplier *= 1;
 							break;
 						case 140: // Tyrr Warrior
-							multiplier *= 1.1;
+							multiplier *= 1;
 							break;
 						case 141: // Othell Rogue
-							multiplier *= 0.95;
+							multiplier *= 1;
 							break;
 						case 142: // Yul Archer
-							//multiplier *= 1.4;
+							//multiplier *= 1;
 							break;
 						case 143: // Feoh Wizard
-							multiplier *= 0.85;
+							multiplier *= 1;
 							break;
 						case 144: // Iss Enchanter
-							//multiplier *= 1.8;
+							//multiplier *= 1;
 							break;
 						case 145: // Wynn Summoner
-							multiplier *= 0.85;
+							multiplier *= 1;
 							break;
 						case 146: // Aeore Healer
-							//multiplier *= 2.1;
+							//multiplier *= 1;
 							break;
 					}
 				}
@@ -4842,16 +4842,16 @@ public final class Formulas
 				switch (targetClass.getId())
 				{
 					case 166: // Feoh Archmage
-						multiplier *= 0.8;
+						multiplier *= 1;
 						break;
 					case 167: // Feoh Soultaker
-						multiplier *= 1.2;
+						multiplier *= 1;
 						break;
 					case 188: // Eviscerator
-						//multiplier *= 0.8;
+						//multiplier *= 1;
 						break;
 					case 189: // Sayha's Seer
-						//multiplier *= 1.4;
+						//multiplier *= 1;
 						break;
 				}
 			}
@@ -4881,28 +4881,28 @@ public final class Formulas
 					switch (awakening)
 					{
 						case 139: // Sigel Knight
-							multiplier *= 1.6;
+							multiplier *= 1;
 							break;
 						case 140: // Tyrr Warrior
-							multiplier *= 0.9;
+							multiplier *= 1;
 							break;
 						case 141: //Othell Rogue
-							multiplier *= 1.5;
+							multiplier *= 1;
 							break;
 						case 142: //Yul Archer
-							multiplier *= 1.2;
+							multiplier *= 1;
 							break;
 						case 143: //Feoh Wizard
-							multiplier *= 1.5;
+							multiplier *= 1;
 							break;
 						case 144: // Iss Enchanter
 							multiplier *= 1.5;
 							break;
 						case 145: // Wynn Summoner
-							multiplier *= 1.5;
+							multiplier *= 1;
 							break;
 						case 146: // Aeore Healer
-							multiplier *= 2.3;
+							multiplier *= 1.25;
 							break;
 					}
 				}
@@ -4910,16 +4910,16 @@ public final class Formulas
 				switch (attackerClass.getId())
 				{
 					case 166: // Feoh Archmage
-						multiplier *= 1.4;
+						multiplier *= 1;
 						break;
 					case 167: // Feoh Soultaker
-						multiplier *= 0.9;
+						multiplier *= 1;
 						break;
 					case 188: // Eviscerator
-						multiplier *= 1.0;
+						multiplier *= 1;
 						break;
 					case 189: // Sayha's Seer
-						multiplier *= 1.3;
+						multiplier *= 1;
 						break;
 				}
 			}
